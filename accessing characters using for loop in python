@@ -1,0 +1,17 @@
+# accessing elements of a string using for loop 
+
+str = 'core python'
+
+#access each letter using for loop
+
+for i in str:
+    print(i, end= ' ')
+    
+    print()
+
+# access in reverse order
+
+for i in str[:: -1]:
+    print(i, end= ' ') 
+    
+    print()
